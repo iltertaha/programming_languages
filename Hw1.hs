@@ -92,18 +92,4 @@ module Hw1 where
 
             
     
-           {-  resulter (ASTNode a l r) veri = "asdasd" -}
-{- 
-            set_let veri
-                | length veri == 1 = "let " ++ checklist_more veri ++ " in" 
-                | length veri >= 1  = "let " ++ checklist_more veri ++ "in"
- -}
-{- 
- where treeInsert x (ASTNode a l r)   
- | a == "str" &&  (searchList (getvalue_num (l)) "num" veri) == 1 = ASTNode x (treeInsert x l) (treeInsert x r)  
- | a == "num" &&  (searchList (getvalue_num (l)) "str" veri) == 1 = ASTNode x (treeInsert x l) (treeInsert x r)  
- | otherwise 
- -}
-
-{-  tree_flatten EmptyAST        = []
- tree_flatten (ASTNode a l r) = [a] ++ tree_flatten l ++ tree_flatten r -}
+          
